@@ -1,0 +1,9 @@
+{
+  "greeting": "Cześć",
+  "body": "Cieszymy się, że dołączasz do nas. Prosimy kliknij poniższy link, aby potwierdzić swój adres e-mail.",
+  "cta": "Potwierdź email",
+  "thanks1": "Dziękujemy",
+  "thanks2": "Zespół {productName}",
+  "footer1": "Otrzymujesz ten e-mail, ponieważ niedawno utworzyłeś konto w {productName}. Jeśli nie rozpocząłeś tego procesu, proszę zignoruj ten e-mail.",
+  "footer2": "© {currentYear} {productName}. Wszelkie prawa zastrzeżone."
+}

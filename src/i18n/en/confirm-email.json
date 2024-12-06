@@ -1,0 +1,9 @@
+{
+  "greeting": "Hello",
+  "body": "We're glad you're joining us. Please click the link below to confirm your email.",
+  "cta": "Confirm email",
+  "thanks1": "Thanks",
+  "thanks2": "{productName} Team",
+  "footer1": "You're receiving this email because you recently created an account with {productName}. If you did not initiate this, please ignore this email.",
+  "footer2": "© {currentYear} {productName}. All rights reserved."
+}

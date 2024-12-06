@@ -1,0 +1,9 @@
+{
+  "greeting": "Hallo",
+  "body": "Wir freuen uns, dass du dich uns anschließt. Bitte klicke auf den Link unten, um deine E-Mail-Adresse zu bestätigen.",
+  "cta": "E-Mail bestätigen",
+  "thanks1": "Danke",
+  "thanks2": "Team {productName}",
+  "footer1": "Du erhältst diese E-Mail, weil du kürzlich ein Konto bei {productName} erstellt hast. Wenn du dies nicht initiiert hast, ignoriere bitte diese E-Mail.",
+  "footer2": "© {currentYear} {productName}. Alle Rechte vorbehalten."
+}

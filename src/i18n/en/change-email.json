@@ -1,0 +1,9 @@
+{
+  "greeting": "Hello",
+  "body": "We received a request to change the email address associated with your account. To confirm the email change, please click the link below.",
+  "cta": "Confirm Email Change",
+  "thanks1": "Thank you",
+  "thanks2": "The {productName} Team",
+  "footer1": "You're receiving this email because a request was made to change the email for your account on {productName}. If you did not initiate this request, please ignore this email.",
+  "footer2": "© {currentYear} {productName}. All rights reserved."
+}

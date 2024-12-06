@@ -1,0 +1,9 @@
+{
+  "greeting": "Welcome Aboard",
+  "body": "We're thrilled to have you with us. Your account is fully active. You're all set to explore and enjoy the features.",
+  "cta": "Explore Now",
+  "thanks1": "Thank you for joining us!",
+  "thanks2": "The {productName} Team",
+  "footer1": "You're receiving this email because you have successfully activated your account with {productName}. Welcome to our community!",
+  "footer2": "© {currentYear} {productName}. All rights reserved."
+}

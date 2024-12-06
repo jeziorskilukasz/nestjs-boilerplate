@@ -1,0 +1,9 @@
+{
+  "greeting": "Witamy na pokładzie!",
+  "body": "Jesteśmy zachwyceni, że jesteś z nami. Twoje konto jest w pełni aktywne. Możesz już odkrywać funkcje i cieszyć się nimi.",
+  "cta": "Odkryj teraz",
+  "thanks1": "Dziękujemy, że do nas dołączyłeś!",
+  "thanks2": "Zespół {productName}",
+  "footer1": "Otrzymujesz tego e-maila, ponieważ pomyślnie aktywowałeś swoje konto w {productName}. Witamy w naszej społeczności!",
+  "footer2": "© {currentYear} {productName}. Wszelkie prawa zastrzeżone."
+}

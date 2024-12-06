@@ -1,0 +1,9 @@
+{
+  "greeting": "Hallo",
+  "body": "Die E-Mail-Adresse für Ihr Konto bei {productName} wurde erfolgreich geändert. Wenn Sie diese Änderung vorgenommen haben, sind keine weiteren Maßnahmen erforderlich.",
+  "cta": "Besuche {productName}",
+  "thanks1": "Danke",
+  "thanks2": "Das {productName}-Team",
+  "footer1": "Sie erhalten diese E-Mail als Bestätigung, dass die mit Ihrem Konto bei {productName} verknüpfte E-Mail-Adresse geändert wurde. Wenn Sie diese Änderung nicht veranlasst haben, kontaktieren Sie bitte sofort unser Support-Team.",
+  "footer2": "© {currentYear} {productName}. Alle Rechte vorbehalten."
+}

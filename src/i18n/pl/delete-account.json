@@ -1,0 +1,9 @@
+{
+  "greeting": "Witam",
+  "body": "Rozpatrzyliśmy Twoją prośbę o usunięcie Twojego konta w {productName}. Twoje konto zostało pomyślnie usunięte z naszego systemu.",
+  "cta": "Kontakt",
+  "thanks1": "Dziękujemy",
+  "thanks2": "Zespół {productName}",
+  "footer1": "Jeśli nie prosiłeś o usunięcie swojego konta lub uważasz, że to pomyłka, skontaktuj się natychmiast z naszym zespołem wsparcia.",
+  "footer2": "© {currentYear} {productName}. Wszelkie prawa zastrzeżone."
+}

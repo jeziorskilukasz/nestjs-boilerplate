@@ -1,0 +1,9 @@
+{
+  "greeting": "Hello",
+  "body": "Your email address for {productName} has been successfully changed. If this change was made by you, no further action is required.",
+  "cta": "Visit {productName}",
+  "thanks1": "Thank you",
+  "thanks2": "The {productName} Team",
+  "footer1": "You're receiving this email as a confirmation that the email address associated with your account on {productName} has been changed. If you did not initiate this change, please contact our support team immediately.",
+  "footer2": "© {currentYear} {productName}. All rights reserved."
+}

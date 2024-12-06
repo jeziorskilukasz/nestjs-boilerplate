@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "incremental": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "target": "ES2021",
+    "paths": {
+      "~starter/config/*": ["src/config/*"],
+      "~starter/consent/*": ["src/consent/*"],
+      "~starter/db/*": ["src/database/*"],
+      "~starter/modules/*": ["src/modules/*"],
+      "~starter/providers/*": ["src/providers/*"],
+      "~starter/roles/*": ["src/roles/*"],
+      "~starter/session/*": ["src/session/*"],
+      "~starter/shared/*": ["src/shared/*"],
+      "~starter/system/*": ["src/system/*"],
+      "~starter/social/*": ["src/social/*"],
+      "~starter/statuses/*": ["src/statuses/*"],
+      "~starter/translations/*": ["src/i18n/*"],
+      "~starter/utils/*": ["src/utils/*"],
+    }
+  }
+}

@@ -1,0 +1,90 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native", "linux-musl-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum RoleName {
+  USER
+  ADMIN
+}
+
+enum StatusName {
+  ACTIVE
+  INACTIVE
+}
+model Article {
+  author      User?    @relation(fields: [authorId], references: [id])
+  authorId    String? 
+  body        String
+  createdAt   DateTime @default(now())
+  description String?
+  id          Int      @id @default(autoincrement())
+  published   Boolean  @default(false)
+  title       String   @unique
+  updatedAt   DateTime @updatedAt
+  deletedAt   DateTime?
+}
+
+model User {
+  articles  Article[]
+  consent   Consent[]
+  createdAt DateTime  @default(now())
+  deletedAt DateTime?
+  email     String    @unique
+  firstName  String?
+  hash      String?
+  id        String    @id @default(uuid())
+  lastName  String?
+  locale    String?   @default("en-US")
+  password  String?
+  provider  String?
+  role      Role?     @relation("UserRole", fields: [roleId], references: [id])
+  roleId    Int?
+  socialId  String?
+  status    Status?   @relation("UserStatus", fields: [statusId], references: [id])
+  statusId  Int?
+  updatedAt DateTime  @updatedAt
+}
+
+model Consent {
+  id                   String   @id @default(uuid())
+  userId               String
+  user                 User     @relation(fields: [userId], references: [id])
+  termsVersion         String
+  termsAccepted        Boolean  @default(true)
+  privacyPolicyVersion String
+  privacyPolicyAccepted Boolean @default(true)
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+  @@index([userId], name: "idx_consent_userId")
+}
+model Role {
+  id    Int      @id @default(autoincrement())
+  name  RoleName @unique
+  users User[]   @relation("UserRole")
+}
+
+model Status {
+  id    Int        @id @default(autoincrement())
+  name  StatusName @unique
+  users User[]     @relation("UserStatus")
+}
+
+model File {
+  category  String?
+  createdAt DateTime @default(now())
+  id        String   @id @default(uuid())
+  mimeType  String
+  name      String
+  path      String
+  size      Int
+  userId    String
+}

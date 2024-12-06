@@ -1,0 +1,9 @@
+{
+  "greeting": "Hallo",
+  "body": "Wir haben eine Anfrage erhalten, um die E-Mail-Adresse Ihres Kontos zu ändern. Um die Änderung der E-Mail-Adresse zu bestätigen, klicken Sie bitte auf den untenstehenden Link.",
+  "cta": "E-Mail-Änderung bestätigen",
+  "thanks1": "Danke",
+  "thanks2": "Das {productName}-Team",
+  "footer1": "Sie erhalten diese E-Mail, weil eine Anfrage zur Änderung der E-Mail-Adresse für Ihr Konto bei {productName} gestellt wurde. Wenn Sie diese Anfrage nicht gestellt haben, ignorieren Sie bitte diese E-Mail.",
+  "footer2": "© {currentYear} {productName}. Alle Rechte vorbehalten."
+}

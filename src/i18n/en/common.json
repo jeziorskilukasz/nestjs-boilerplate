@@ -1,0 +1,9 @@
+{
+  "changeEmail": "Email address change for {productName}",
+  "confirmEmailChange": "Your email address has been changed for {productName}",
+  "confirmEmail": "Verify your email for {productName}",
+  "deleteAccount": "Confirmation of account deletion for {productName}",
+  "resetPassword": "Reset password for {productName}",
+  "resetPasswordConfirmation": "Your password for {productName} has been changed",
+  "welcomeEmail": "Welcome aboard {productName}!"
+}

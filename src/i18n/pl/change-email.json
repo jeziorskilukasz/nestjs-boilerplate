@@ -1,0 +1,9 @@
+{
+  "greeting": "Witaj",
+  "body": "Otrzymaliśmy prośbę o zmianę adresu e-mail przypisanego do Twojego konta. Aby potwierdzić zmianę adresu e-mail, kliknij poniższy link.",
+  "cta": "Potwierdź zmianę e-mail",
+  "thanks1": "Dziękujemy",
+  "thanks2": "Zespół {productName}",
+  "footer1": "Otrzymujesz tego e-maila, ponieważ została złożona prośba o zmianę adresu e-mail dla Twojego konta w {productName}. Jeśli to nie Ty zainicjowałeś tę prośbę, prosimy zignorować tę wiadomość.",
+  "footer2": "© {currentYear} {productName}. Wszelkie prawa zastrzeżone."
+}

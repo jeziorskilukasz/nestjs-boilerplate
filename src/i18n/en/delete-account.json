@@ -1,0 +1,9 @@
+{
+  "greeting": "Hello",
+  "body": "We have processed your request to delete your account with {productName}. Your account has been successfully removed from our system.",
+  "cta": "Contact us",
+  "thanks1": "Thank you",
+  "thanks2": "The {productName} Team",
+  "footer1": "If you did not request the deletion of your account or believe this to be an error, please contact our support team immediately.",
+  "footer2": "© {currentYear} {productName}. All rights reserved."
+}

@@ -1,0 +1,9 @@
+{
+  "changeEmail": "Änderung der E-Mail-Adresse für {productName}",
+  "confirmEmailChange": "Ihre E-Mail-Adresse wurde für {productName} geändert",
+  "confirmEmail": "Bestätigen Sie Ihre E-Mail-Adresse für {productName}",
+  "deleteAccount": "Bestätigung der Kontolöschung für {productName",
+  "resetPassword": "Passwort für {productName} zurücksetzen",
+  "resetPasswordConfirmation": "Ihr Passwort für {productName} wurde geändert",
+  "welcomeEmail": "Willkommen an Bord von {productName}!"
+}

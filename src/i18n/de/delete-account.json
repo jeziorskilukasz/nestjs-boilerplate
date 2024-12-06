@@ -1,0 +1,9 @@
+{
+  "greeting": "Hallo",
+  "body": "Wir haben Ihre Anfrage zum Löschen Ihres Kontos bei {productName} bearbeitet. Ihr Konto wurde erfolgreich aus unserem System entfernt.",
+  "cta": "Kontaktieren Sie uns",
+  "thanks1": "Vielen Dank",
+  "thanks2": "Das {productName}-Team",
+  "footer1": "Wenn Sie die Löschung Ihres Kontos nicht beantragt haben oder glauben, dass es sich hierbei um einen Fehler handelt, wenden Sie sich bitte umgehend an unser Support-Team.",
+  "footer2": "© {currentYear} {productName}. Alle Rechte vorbehalten."
+}
